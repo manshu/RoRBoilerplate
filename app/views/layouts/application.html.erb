@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body id="app">
+  <%= render 'partials/header' %>
+  <div class="container">
+    <% if notice %><div class="alert alert-info"><%= notice %></div><% end %>
+    <% if alert %><div class="alert alert-warning"><%= alert %></div><% end %>
+    <%= yield %>
+  </div>
+  <%= render 'partials/footer' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>

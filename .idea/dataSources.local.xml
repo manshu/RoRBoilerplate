@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails twitter: development" uuid="1ba899bd-e6fe-41a2-933c-c3a34bbd2fcc">
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>
